@@ -19,7 +19,7 @@ export const BannerIntroSection = () => {
   return (
     <React.Fragment>
       <Grid container justify="center">
-        <IntroLeft item md={6} lg={6} xl={4}>
+        <IntroLeft item md={6} lg={6} xl={4} data-aos="fade-down">
           <IntroTypographyWrapper variant="h2">
             A modern design system for your new
           </IntroTypographyWrapper>

@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import Grid from '@material-ui/core/Grid';
+import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 
 export const UpperSection = styled(Grid)`
-  padding: 96px 64px;
+  padding-top: 96px;
 `;
 
 export const FeatureTypographyWrapper = styled(Typography)`
@@ -22,11 +22,39 @@ export const FeatureSubTypographyWrapper = styled(Typography)`
   }
 `;
 
-export const LowerSection = styled.div`
-  box-sizing: border-box;
-  margin: auto;
-  max-width: 1236px;
-  height: 100%;
-  background: red;
-`
+export const LowerSection = styled(Grid)`
+  padding: 0 64px;
+`;
 
+export const FontAwesomeIconWrapper = styled(Grid)`
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+  background: #e8eaf6;
+  height: 70px;
+  width: 70px;
+  border-radius: 16px;
+  color: rgb(63, 81, 181);
+  font-size: 30px;
+`;
+
+export const TypographyH6Wrapper = styled(Typography)`
+  && {
+    font-weight: 700;
+    font-size: 1.25rem;
+    font-family: Lato;
+    text-align: left;
+    margin: 15px 0;
+  }
+`;
+
+export const TypographyBodyWrapper = styled(Typography)`
+  && {
+    text-align: left;
+    font-size: 1rem;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #718096;
+  }
+`;
