@@ -1,6 +1,7 @@
 import React from 'react';
 import { Home } from './pages/home';
 import { Header } from './components/header';
+import { Footer } from './components/footer';
 import './App.css';
 import AOS from 'aos';
 
@@ -15,6 +16,7 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <Home />
+        <Footer />
       </div>
     );
   }

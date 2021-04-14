@@ -2,9 +2,9 @@ import styled from "styled-components";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 
-export const UpperSection = styled(Grid)`
-  padding-top: 96px;
-`;
+export const FirstFeatureWrapper = styled(Grid)`
+  padding: 96px 64px;
+`
 
 export const FeatureTypographyWrapper = styled(Typography)`
   && {
@@ -20,10 +20,6 @@ export const FeatureSubTypographyWrapper = styled(Typography)`
     color: #718096;
     margin-top: 20px;
   }
-`;
-
-export const LowerSection = styled(Grid)`
-  padding: 0 64px;
 `;
 
 export const FontAwesomeIconWrapper = styled(Grid)`

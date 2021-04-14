@@ -1,10 +1,9 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import {
-  UpperSection,
+  FirstFeatureWrapper,
   FeatureTypographyWrapper,
   FeatureSubTypographyWrapper,
-  LowerSection,
   FontAwesomeIconWrapper,
   TypographyH6Wrapper,
   TypographyBodyWrapper,
@@ -14,23 +13,21 @@ import { faLayerGroup, faCode } from "@fortawesome/free-solid-svg-icons";
 
 export const FirstFeatureSection = () => {
   return (
-    <Grid container direction="column">
-      <Grid item xs={12} spacing={4}>
-        <Grid container justify="center">
-          <UpperSection item xs={8} xl={5} data-aos="fade-up">
-            <FeatureTypographyWrapper variant="h2">
-              Build accessible React apps with speed
-            </FeatureTypographyWrapper>
-            <FeatureSubTypographyWrapper variant="h6">
-              Build a beautiful, modern website with flexible, fully
-              customizable, atomic Material UI components.
-            </FeatureSubTypographyWrapper>
-          </UpperSection>
+    <FirstFeatureWrapper container direction="column" spacing={8}>
+      <Grid container justify="center">
+        <Grid item xs={8} xl={5} data-aos="fade-up">
+          <FeatureTypographyWrapper variant="h2">
+            Build accessible React apps with speed
+          </FeatureTypographyWrapper>
+          <FeatureSubTypographyWrapper variant="h6">
+            Build a beautiful, modern website with flexible, fully customizable,
+            atomic Material UI components.
+          </FeatureSubTypographyWrapper>
         </Grid>
       </Grid>
       <Grid item xs={12}>
         <Grid container justify="center">
-          <LowerSection item xs={12} xl={8} data-aos="fade-up">
+          <Grid item xs={12} xl={8} data-aos="fade-up">
             <Grid container justify="center" spacing={4}>
               <Grid item xs={4} xl={4}>
                 <FontAwesomeIconWrapper>
@@ -69,9 +66,9 @@ export const FirstFeatureSection = () => {
                 </TypographyBodyWrapper>
               </Grid>
             </Grid>
-          </LowerSection>
+          </Grid>
         </Grid>
       </Grid>
-    </Grid>
+    </FirstFeatureWrapper>
   );
 };
