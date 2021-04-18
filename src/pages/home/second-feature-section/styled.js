@@ -1,10 +1,26 @@
 import styled from "styled-components";
-import { Grid, Button } from "@material-ui/core";
-import Typography from "@material-ui/core/Typography";
+import { Grid, Typography} from "@material-ui/core";
 
 export const SecondFeatureWrapper = styled(Grid)`
-  background: rgb(247, 249, 250);
+  background: #2D3748;
   padding: 60px 64px;
+`;
+
+export const FeatureTypographyWrapper = styled(Typography)`
+  && {
+    text-align: center;
+    font-weight: 800;
+    color: #fff;
+  }
+`;
+
+export const FeatureSubTypographyWrapper = styled(Typography)`
+  && {
+    text-align: center;
+    color: #AEB0B4;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
 `;
 
 export const LeftPanelWrapper = styled(Grid)``;

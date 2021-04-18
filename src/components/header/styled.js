@@ -3,6 +3,8 @@ import Button from "@material-ui/core/Button";
 
 export const HeaderWrapper = styled.div`
   height: 64px;
+  background: #1A202C;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 `
 
 export const HeaderCenter = styled.div`

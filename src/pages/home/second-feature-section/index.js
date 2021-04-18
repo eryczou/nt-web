@@ -1,6 +1,8 @@
 import React from "react";
 import {
   SecondFeatureWrapper,
+  FeatureTypographyWrapper,
+  FeatureSubTypographyWrapper,
   LeftPanelWrapper,
   RightPanelWrapper,
   H3TypographyWrapper,
@@ -14,10 +16,27 @@ import discussImg from "../../../assets/img/discuss.png";
 
 export const SecondFeatureSection = () => {
   return (
-    <SecondFeatureWrapper container direction="column" spacing={8}>
+    <SecondFeatureWrapper container>
       <Grid item xs={12} xl={12}>
         <Grid container justify="center">
-          <LeftPanelWrapper item md={6} lg={6} xl={4}>
+          <Grid item xs={8} xl={5}>
+            <FeatureTypographyWrapper variant="h4">
+              完整的机器学习运维平台
+            </FeatureTypographyWrapper>
+            <FeatureSubTypographyWrapper variant="subtitle1">
+              为数据科学团队提供完整的模型运维解决方案
+            </FeatureSubTypographyWrapper>
+          </Grid>
+        </Grid>
+        <Grid container justify="center">
+          <LeftPanelWrapper
+            item
+            xs={10}
+            lg={5}
+            xl={4}
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <H3TypographyWrapper variant="h3">
               Less code. More speed
             </H3TypographyWrapper>
@@ -34,17 +53,17 @@ export const SecondFeatureSection = () => {
               </Button>
             </ButtonsWrapper>
           </LeftPanelWrapper>
-          <RightPanelWrapper item md={6} lg={6} xl={4}>
+          <RightPanelWrapper item xs={10} lg={5} xl={4} data-aos="fade-left">
             <ImageWrapper imgUrl={planningImg} />
           </RightPanelWrapper>
         </Grid>
       </Grid>
       <Grid item xs={12} xl={12}>
         <Grid container justify="center">
-          <LeftPanelWrapper item md={6} lg={6} xl={4}>
+          <LeftPanelWrapper item xs={10} lg={5} xl={4} data-aos="fade-right">
             <ImageWrapper imgUrl={discussImg} />
           </LeftPanelWrapper>
-          <RightPanelWrapper item md={6} lg={6} xl={4}>
+          <RightPanelWrapper item xs={10} lg={5} xl={4} data-aos="fade-left">
             <H3TypographyWrapper variant="h3">
               Less code. More speed
             </H3TypographyWrapper>

@@ -2,13 +2,19 @@ import React from 'react';
 import  { BannerIntroSection } from './banner-section';
 import { FirstFeatureSection } from './first-feature-section';
 import { SecondFeatureSection } from './second-feature-section';
+import { CaseFeatureSection } from './case-feature-section';
+import { CloudsFeatureSection } from './clouds-feature-section';
+import { PricingFeatureSection} from './pricing-feature-section';
 
 export const Home = () => {
   return (
-    <React.Fragment>
+    <div>
       <BannerIntroSection />
       <FirstFeatureSection />
       <SecondFeatureSection />
-    </React.Fragment>
+      <CaseFeatureSection />
+      <CloudsFeatureSection />
+      <PricingFeatureSection />
+    </div>
   )
 }
