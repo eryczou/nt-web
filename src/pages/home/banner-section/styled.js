@@ -2,10 +2,14 @@ import styled, { keyframes } from "styled-components";
 import Grid from '@material-ui/core/Grid';
 import Typography from "@material-ui/core/Typography";
 import Typist from "react-typist";
-import poster from '../../../assets/img/home-hero-bg-light.png';
+
+export const BannerWrapper = styled.div`
+  background: rgb(247, 249, 250);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+`
 
 export const IntroLeft = styled(Grid)`
-  padding: 96px 64px;
+  padding: 112px 64px;
   font-size: 3.3333rem;
   font-weight: 900;
 `;
@@ -21,6 +25,8 @@ export const IntroTypographyWrapper = styled(Typography)`
 export const SubIntroTypographyWrapper = styled(Typography)`
   && {
     text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
     color: #718096;
   }
 `;
@@ -35,7 +41,7 @@ export const TypistWrapper = styled(Typist)`
   && {
     text-align: left;
     span {
-      font-size: 3.75rem;
+      font-size: 3rem;
       font-family: "Roboto", "Helvetica", "Arial", sans-serif;
       font-weight: 800;
       line-height: 1.5;
@@ -56,15 +62,12 @@ export const BtnsWrapper = styled.div`
   text-align: left;
 `
 
-const backgroundAnimation = keyframes`
-  from { background-position: 0 0; }
-  to { background-position:  0 100%; }
-`
-
 export const IntroRight = styled(Grid)`
-  background: url(${poster});
-  background-position: 0px 0px;
-	background-repeat: repeat-x;
-	animation: ${backgroundAnimation} 20s linear infinite;
+  height: 100%; 
+  img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
 `
 

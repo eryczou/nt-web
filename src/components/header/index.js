@@ -1,23 +1,22 @@
 import React from "react";
-import logoImage from "../../assets/img/logo.svg";
-import { Button, Divider } from "@material-ui/core";
+import logoImage from "../../assets/img/logo.png";
+import { Button } from "@material-ui/core";
 import { HeaderWrapper, HeaderCenter, ContactUsBtn } from "./styled";
 
 export const Header = () => {
   return (
-    <React.Fragment>
-      <HeaderWrapper>
-        <HeaderCenter>
-          <img src={logoImage} alt="" />
-          <div>
-            <Button variant="outlined">DOCUMENTATION</Button>
-            <ContactUsBtn variant="contained" color="primary">
-              Contact US
-            </ContactUsBtn>
-          </div>
-        </HeaderCenter>
-      </HeaderWrapper>
-      <Divider />
-    </React.Fragment>
+    <HeaderWrapper>
+      <HeaderCenter>
+        <img src={logoImage} alt="" />
+        <div>
+          <Button variant="outlined" color="primary">
+            查看文档
+          </Button>
+          <ContactUsBtn variant="contained" color="primary">
+            联系我们
+          </ContactUsBtn>
+        </div>
+      </HeaderCenter>
+    </HeaderWrapper>
   );
 };

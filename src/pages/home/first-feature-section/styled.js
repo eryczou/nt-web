@@ -3,7 +3,9 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 
 export const FirstFeatureWrapper = styled(Grid)`
-  padding: 96px 64px;
+  padding: 96px 64px 60px 64px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 `
 
 export const FeatureTypographyWrapper = styled(Typography)`
@@ -18,7 +20,8 @@ export const FeatureSubTypographyWrapper = styled(Typography)`
   && {
     text-align: center;
     color: #718096;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
   }
 `;
 
@@ -41,6 +44,7 @@ export const TypographyH6Wrapper = styled(Typography)`
     font-family: Lato;
     text-align: left;
     margin: 15px 0;
+    color: #2d3748;
   }
 `;
 
