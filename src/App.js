@@ -9,9 +9,6 @@ import AOS from 'aos';
 
 const theme = createMuiTheme({
   palette: {
-    primary: {
-      main: "#90caf9",
-    },
   },
 });
 

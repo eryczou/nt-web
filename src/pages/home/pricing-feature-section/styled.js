@@ -2,15 +2,15 @@ import styled from "styled-components";
 import { Grid, Typography, Card, CardContent, Button } from "@material-ui/core";
 
 export const PricingFeatureWrapper = styled(Grid)`
-  padding: 60px 64px;
-  background: #1A202C;
+  padding: 96px 64px 60px 64px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 `;
 
 export const PricingTypographyWrapper = styled(Typography)`
   && {
     text-align: center;
     font-weight: 800;
-    color: #fff;
+    color: #2d3748;
     margin-bottom: 30px;
   }
 `;
@@ -18,7 +18,7 @@ export const PricingTypographyWrapper = styled(Typography)`
 export const PricingSubTypographyWrapper = styled(Typography)`
   && {
     text-align: center;
-    color: #AEB0B4;
+    color: #718096;
     margin-bottom: 35px;
   }
 `;
@@ -29,7 +29,6 @@ export const CardWrapper = styled(Card)`
     padding: 5px;
     padding-bottom: 15px;
     transition: 0.2s;
-    background: #2D3748;
   }
   &:hover {
     margin-top: -5px;
@@ -51,13 +50,13 @@ export const TypographyTitleWrapper = styled(Typography)`
     line-height: 1.334;
     font-size: 1.4993rem;
     margin-top: 10px;
-    color: #fff;
+    color: #2d3748;
   }
 `;
 
 export const TypographySubTitleWrapper = styled(Typography)`
   && {
-    color: #AEB0B4;
+    color: #718096;
     font-size: 1rem;
     font-family: Lato;
     font-weight: 400;
@@ -72,7 +71,7 @@ export const ItemGridWrapper = styled(Grid)`
 
 export const FontAwesomeIconWrapper = styled.div`
   && {
-    color: #90caf9;
+    color: #3f51b5;
     font-size: 20px;
     line-height: 20px;
   }
@@ -84,9 +83,9 @@ export const TypographyItemWrapper = styled(Typography)`
     font-weight: 400;
     white-space: nowrap;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 17px;
     margin-left: 10px;
-    color: #fff;
+    color: #2d3748;
   }
 `;
 

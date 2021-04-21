@@ -2,22 +2,21 @@ import styled from "styled-components";
 import { Grid, Typography, Card, CardMedia } from "@material-ui/core";
 
 export const CaseFeatureWrapper = styled(Grid)`
-  background: #2D3748;
-  padding: 60px 64px;
+  padding: 96px 64px 60px 64px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 `;
 
 export const FeatureTypographyWrapper = styled(Typography)`
   && {
     text-align: center;
     font-weight: 800;
-    color: #fff;
+    color: #2d3748;
     margin-bottom: 50px;
   }
 `;
 
 export const CardWrapper = styled(Card)`
   && {
-    background: #1A202C;
     height: 100%;
   }
 `
@@ -35,7 +34,7 @@ export const TypographyH6Wrapper = styled(Typography)`
     font-family: Lato;
     text-align: left;
     margin: 15px 0;
-    color: #fff;
+    color: #2d3748;
   }
 `;
 
@@ -46,6 +45,6 @@ export const TypographyBodyWrapper = styled(Typography)`
     font-family: Lato;
     font-weight: 400;
     line-height: 1.5;
-    color: #AEB0B4;
+    color: #718096;
   }
 `;

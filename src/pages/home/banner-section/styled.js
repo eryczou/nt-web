@@ -4,12 +4,12 @@ import Typography from "@material-ui/core/Typography";
 import Typist from "react-typist";
 
 export const BannerWrapper = styled.div`
-  background: #1A202C;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgb(247, 249, 250);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 `
 
 export const IntroLeft = styled(Grid)`
-  padding: 96px 64px;
+  padding: 112px 64px;
   font-size: 3.3333rem;
   font-weight: 900;
 `;
@@ -18,16 +18,16 @@ export const IntroTypographyWrapper = styled(Typography)`
   && {
     text-align: left;
     font-weight: 800;
-    color: #fff;
+    color: #2d3748;
   }
 `;
 
 export const SubIntroTypographyWrapper = styled(Typography)`
   && {
     text-align: left;
-    color: #AEB0B4;
     margin-top: 15px;
     margin-bottom: 15px;
+    color: #718096;
   }
 `;
 

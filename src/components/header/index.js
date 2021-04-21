@@ -1,5 +1,5 @@
 import React from "react";
-import logoImage from "../../assets/img/logo.svg";
+import logoImage from "../../assets/img/logo.png";
 import { Button } from "@material-ui/core";
 import { HeaderWrapper, HeaderCenter, ContactUsBtn } from "./styled";
 
