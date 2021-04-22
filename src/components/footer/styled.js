@@ -1,8 +1,10 @@
 import styled from "styled-components";
+import { Grid } from "@material-ui/core";
 
-export const FooterWrapper = styled.div`
-  height: 120px;
-  padding: 96px 0;
+export const FooterWrapper = styled(Grid)`
+  height: 100%;
+  padding: 20px;
   color: #fff;
   background: #18181f;
+  box-sizing: box-border;
 `

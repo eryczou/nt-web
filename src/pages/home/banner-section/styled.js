@@ -9,7 +9,11 @@ export const BannerWrapper = styled.div`
 `
 
 export const IntroLeft = styled(Grid)`
-  padding: 112px 64px;
+  padding: 140px 64px;
+  @media (max-width: 600px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   font-size: 3.3333rem;
   font-weight: 900;
 `;

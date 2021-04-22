@@ -3,7 +3,14 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 
 export const FirstFeatureWrapper = styled(Grid)`
-  padding: 96px 64px 60px 64px;
+  padding-top: 96px;
+  padding-bottom: 60px;
+  padding-left: 64px;
+  padding-right: 64px;
+  @media (max-width: 600px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   box-sizing: border-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 `

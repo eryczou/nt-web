@@ -18,7 +18,7 @@ export const BannerIntroSection = () => {
   }, [count]);
 
   return (
-    <BannerWrapper>
+    <BannerWrapper >
       <Grid container justify="center" alignItems="center">
         <IntroLeft
           item
@@ -30,7 +30,7 @@ export const BannerIntroSection = () => {
           data-aos-duration="1000"
         >
           <IntroTypographyWrapper variant="h3">
-            为A.I./机器学习
+            人工智能/机器学习
           </IntroTypographyWrapper>
           {count ? (
             <TypistWrapper avgTypingDelay={50} onTypingDone={() => setCount(0)}>
@@ -46,9 +46,6 @@ export const BannerIntroSection = () => {
           ) : (
             ""
           )}
-          <IntroTypographyWrapper variant="h3">
-            提供解决方案
-          </IntroTypographyWrapper>
           <SubIntroTypographyWrapper variant="h6">
             帮助企业轻松部署机器学习模型到实际应用场景
           </SubIntroTypographyWrapper>

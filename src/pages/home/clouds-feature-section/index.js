@@ -33,7 +33,12 @@ export const CloudsFeatureSection = () => {
           </TitleTypographyWrapper>
         </Grid>
       </Grid>
-      <Grid container justify="center">
+      <Grid
+        container
+        justify="center"
+        data-aos="zoom-out-up"
+        data-aos-duration="1000"
+      >
         <Grid item xs={12} md={10} xl={10}>
           <FeatureTypographyWrapper variant="h6" marginBottom="20px">
             最熟悉的开发环境
@@ -42,17 +47,21 @@ export const CloudsFeatureSection = () => {
             <ImageWrapper src={jupyterLogo} height="70px"></ImageWrapper>
             <ImageWrapper src={tensorflow} height="70px"></ImageWrapper>
             <ImageWrapper src={pytorch} height="30px"></ImageWrapper>
-            <ImageWrapper src={sklearn}  height="50px"></ImageWrapper>
-            <ImageWrapper src={spacy}  height="40px"></ImageWrapper>
+            <ImageWrapper src={sklearn} height="50px"></ImageWrapper>
+            <ImageWrapper src={spacy} height="40px"></ImageWrapper>
             <ImageWrapper src={spark} height="50px"></ImageWrapper>
             <ImageWrapper src={keras} height="50px"></ImageWrapper>
             <ImageWrapper src={xgboost} height="50px"></ImageWrapper>
-            <ImageWrapper src={r}  height="50px"></ImageWrapper>
-            <ImageWrapper src={flask}  height="45px"></ImageWrapper>
+            <ImageWrapper src={r} height="50px"></ImageWrapper>
+            <ImageWrapper src={flask} height="45px"></ImageWrapper>
           </Grid>
         </Grid>
         <Grid item xs={12} md={10} xl={10}>
-          <FeatureTypographyWrapper variant="h6" marginTop="40px" marginBottom="20px">
+          <FeatureTypographyWrapper
+            variant="h6"
+            marginTop="40px"
+            marginBottom="20px"
+          >
             部署公有或私有云
           </FeatureTypographyWrapper>
           <Grid container justify="center" alignItems="center">

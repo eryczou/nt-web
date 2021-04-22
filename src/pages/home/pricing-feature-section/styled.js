@@ -2,7 +2,14 @@ import styled from "styled-components";
 import { Grid, Typography, Card, CardContent, Button } from "@material-ui/core";
 
 export const PricingFeatureWrapper = styled(Grid)`
-  padding: 96px 64px 60px 64px;
+  padding-top: 96px;
+  padding-bottom: 60px;
+  padding-left: 64px;
+  padding-right: 64px;
+  @media (max-width: 600px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 `;
 
@@ -34,14 +41,14 @@ export const CardWrapper = styled(Card)`
     margin-top: -5px;
     margin-bottom: 5px;
     box-shadow: 0 2px 10px 0 rgb(23 70 161 / 11%);
-  }   
-`
+  }
+`;
 
 export const CardContentWrapper = styled(CardContent)`
   && {
     text-align: left;
   }
-`
+`;
 
 export const TypographyTitleWrapper = styled(Typography)`
   && {
@@ -67,7 +74,7 @@ export const TypographySubTitleWrapper = styled(Typography)`
 
 export const ItemGridWrapper = styled(Grid)`
   padding-top: 18px;
-`
+`;
 
 export const FontAwesomeIconWrapper = styled.div`
   && {
@@ -93,4 +100,4 @@ export const TalkButton = styled(Button)`
     margin-left: 10%;
     width: 80%;
   }
-`
+`;
