@@ -19,7 +19,7 @@ export const FeatureTypographyWrapper = styled(Typography)`
 export const FeatureSubTypographyWrapper = styled(Typography)`
   && {
     text-align: center;
-    color: #718096;
+    color: #5e6c80;
     margin-top: 30px;
     margin-bottom: 40px;
   }
@@ -55,6 +55,6 @@ export const TypographyBodyWrapper = styled(Typography)`
     font-family: Lato;
     font-weight: 400;
     line-height: 1.5;
-    color: #718096;
+    color: #5e6c80;
   }
 `;

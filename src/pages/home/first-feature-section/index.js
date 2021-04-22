@@ -58,11 +58,11 @@ export const FirstFeatureSection = () => {
     <FirstFeatureWrapper container>
       <Grid item xs={12} xl={12}>
         <Grid container justify="center">
-          <Grid item xs={8} xl={5}>
+          <Grid item xs={12} sm={10} xl={5}>
             <FeatureTypographyWrapper variant="h4">
               赋能数据科学团队
             </FeatureTypographyWrapper>
-            <FeatureSubTypographyWrapper variant="subtitle1">
+            <FeatureSubTypographyWrapper variant="h6">
               基于云技术打造的机器学习运维系统，为企业提供便捷高效的人工智能接口
             </FeatureSubTypographyWrapper>
           </Grid>
@@ -73,11 +73,11 @@ export const FirstFeatureSection = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <Grid item xs={12} lg={8} xl={8}>
+          <Grid item xs={12} md={10} lg={8} xl={8}>
             <Grid container justify="center" spacing={4}>
               {data.map((item) => {
                 return (
-                  <Grid item xs={4} xl={4}>
+                  <Grid item xs={6} sm={4} xl={4}>
                     <FontAwesomeIconWrapper>{item.icon}</FontAwesomeIconWrapper>
                     <TypographyH6Wrapper variant="h6">
                       {item.title}

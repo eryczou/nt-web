@@ -13,7 +13,7 @@ export const HeaderCenter = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 64px;
+  padding: 0 ${(props) => { return props.padding}};
   box-sizing: border-box;
   img {
     height: 64px;
@@ -23,6 +23,6 @@ export const HeaderCenter = styled.div`
 
 export const ContactUsBtn = styled(Button)`
   && {
-    margin-left: 20px;
+    margin-left: ${(props) => { return props.buttonmargin}};;
   }
 `;

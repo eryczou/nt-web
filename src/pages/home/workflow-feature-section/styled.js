@@ -19,31 +19,29 @@ export const FeatureTypographyWrapper = styled(Typography)`
 export const FeatureSubTypographyWrapper = styled(Typography)`
   && {
     text-align: center;
-    color: #718096;
+    color: #5e6c80;
     margin-top: 30px;
     margin-bottom: 40px;
   }
 `;
 
 export const LeftPanelWrapper = styled(Grid)`
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   box-sizing: box-border;
 `;
 
 export const RightPanelWrapper = styled(Grid)`
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   box-sizing: box-border;
 `;
 
 export const ImageWrapper = styled.div`
-  background-image: url(${(props) => { return props.imgUrl}});
+  background-image: url(${(props) => { return props.imgurl}});
   background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: ${(props) => { return props.floating}} top;
+  background-position: center top;
   height: 100%;
-  min-height: 260px;
-  margin-left: 40px;
-  margin-right: 80px;
+  min-height: 240px;
 `;
 
 export const H3TypographyWrapper = styled(Typography)`
@@ -59,7 +57,7 @@ export const H6TypographyWrapper = styled(Typography)`
   && {
     text-align: left;
     font-size: 1.25rem;
-    color: #718096;
+    color: #5e6c80;
     font-family: Lato;
     font-weight: 500;
     line-height: 1.6;

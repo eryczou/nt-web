@@ -58,9 +58,9 @@ export const CaseFeatureSection = () => {
   return (
     <CaseFeatureWrapper container>
       <Grid container justify="center">
-        <Grid item xs={10} xl={8}>
+        <Grid item xs={12} md={10} xl={8}>
           <Grid container justify="center">
-            <Grid item xs={8} xl={5}>
+            <Grid item xs={10} xl={5}>
               <FeatureTypographyWrapper variant="h4">
                 行业解决方案
               </FeatureTypographyWrapper>
@@ -70,13 +70,12 @@ export const CaseFeatureSection = () => {
             container
             justify="center"
             spacing={2}
-            data-aos="zoom-in-right"
-            data-aos-duration="1000"
           >
             {data.map((item) => {
               return (
-                <Grid item lg={4}>
-                  <CardWrapper>
+                <Grid item xs={12} sm={4} md={4} lg={4}>
+                  <CardWrapper data-aos="fade-up"
+                  data-aos-duration="1000">
                     {item.imgEle}
                     <CardContent>
                       <TypographyH6Wrapper variant="h6" color="textPrimary">

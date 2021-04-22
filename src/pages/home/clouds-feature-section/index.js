@@ -34,8 +34,8 @@ export const CloudsFeatureSection = () => {
         </Grid>
       </Grid>
       <Grid container justify="center">
-        <Grid item xs={8} xl={5}>
-          <FeatureTypographyWrapper variant="h6" marginBottom="40px">
+        <Grid item xs={12} md={10} xl={10}>
+          <FeatureTypographyWrapper variant="h6" marginBottom="20px">
             最熟悉的开发环境
           </FeatureTypographyWrapper>
           <Grid container justify="center" alignItems="center">
@@ -51,8 +51,8 @@ export const CloudsFeatureSection = () => {
             <ImageWrapper src={flask}  height="45px"></ImageWrapper>
           </Grid>
         </Grid>
-        <Grid item xs={4}  xl={4}>
-          <FeatureTypographyWrapper variant="h6" marginBottom="50px">
+        <Grid item xs={12} md={10} xl={10}>
+          <FeatureTypographyWrapper variant="h6" marginTop="40px" marginBottom="20px">
             部署公有或私有云
           </FeatureTypographyWrapper>
           <Grid container justify="center" alignItems="center">

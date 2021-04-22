@@ -45,6 +45,6 @@ export const TypographyBodyWrapper = styled(Typography)`
     font-family: Lato;
     font-weight: 400;
     line-height: 1.5;
-    color: #718096;
+    color: #5e6c80;
   }
 `;

@@ -20,9 +20,9 @@ export const PricingFeatureSection = () => {
   return (
     <PricingFeatureWrapper>
       <Grid container justify="center">
-        <Grid item xs={8} xl={5}>
+        <Grid item xs={12} xl={5}>
           <PricingTypographyWrapper variant="h4">价格</PricingTypographyWrapper>
-          <PricingSubTypographyWrapper variant="subtitle1">
+          <PricingSubTypographyWrapper variant="h6">
             不管您是准备开始探索数据模型的平台还是旨在把数据模型应用部署到生产环境中，我们都能为您提供解决方案
           </PricingSubTypographyWrapper>
         </Grid>
@@ -35,7 +35,7 @@ export const PricingFeatureSection = () => {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <Grid item xs={5} xl={4}>
+        <Grid item xs={12} sm={6} lg={5} xl={4}>
           <CardWrapper>
             <CardContentWrapper>
               <TypographyTitleWrapper gutterBottom>
@@ -96,7 +96,7 @@ export const PricingFeatureSection = () => {
             </CardContentWrapper>
           </CardWrapper>
         </Grid>
-        <Grid item xs={5} xl={4}>
+        <Grid item xs={12} sm={6} lg={5} xl={4}>
           <CardWrapper>
             <CardContentWrapper>
               <TypographyTitleWrapper gutterBottom>

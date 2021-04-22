@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button, Grid } from "@material-ui/core";
+import { Button, Grid, Hidden } from "@material-ui/core";
 import poster from "../../../assets/img/face.png";
 import {
   BannerWrapper,
@@ -22,7 +22,8 @@ export const BannerIntroSection = () => {
       <Grid container justify="center" alignItems="center">
         <IntroLeft
           item
-          md={6}
+          xs={12}
+          md={5}
           lg={5}
           xl={4}
           data-aos="fade-down"
@@ -57,9 +58,11 @@ export const BannerIntroSection = () => {
             </Button>
           </BtnsWrapper>
         </IntroLeft>
-        <IntroRight item md={6} lg={5} xl={4}>
-          <img src={poster} alt=""/>
-        </IntroRight>
+        <Hidden xsDown>
+          <IntroRight item sm={8} md={5} lg={5} xl={4}>
+            <img src={poster} alt="" />
+          </IntroRight>
+        </Hidden>
       </Grid>
     </BannerWrapper>
   );

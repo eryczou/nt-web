@@ -27,7 +27,7 @@ export const SubIntroTypographyWrapper = styled(Typography)`
     text-align: left;
     margin-top: 15px;
     margin-bottom: 15px;
-    color: #718096;
+    color: #5e6c80;
   }
 `;
 

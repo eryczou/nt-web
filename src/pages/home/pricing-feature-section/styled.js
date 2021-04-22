@@ -18,7 +18,7 @@ export const PricingTypographyWrapper = styled(Typography)`
 export const PricingSubTypographyWrapper = styled(Typography)`
   && {
     text-align: center;
-    color: #718096;
+    color: #5e6c80;
     margin-bottom: 35px;
   }
 `;
@@ -56,7 +56,7 @@ export const TypographyTitleWrapper = styled(Typography)`
 
 export const TypographySubTitleWrapper = styled(Typography)`
   && {
-    color: #718096;
+    color: #5e6c80;
     font-size: 1rem;
     font-family: Lato;
     font-weight: 400;
@@ -81,7 +81,6 @@ export const TypographyItemWrapper = styled(Typography)`
   && {
     font-family: Lato;
     font-weight: 400;
-    white-space: nowrap;
     line-height: 1.6;
     font-size: 17px;
     margin-left: 10px;
