@@ -35,11 +35,17 @@ export const FeatureSubTypographyWrapper = styled(Typography)`
 export const LeftPanelWrapper = styled(Grid)`
   padding-bottom: 60px;
   box-sizing: box-border;
+  @media (max-width: 600px) {
+    padding-bottom: 0px;
+  }
 `;
 
 export const RightPanelWrapper = styled(Grid)`
   padding-bottom: 60px;
   box-sizing: box-border;
+  @media (max-width: 600px) {
+    padding-bottom: 0px;
+  }
 `;
 
 export const ImageWrapper = styled.div`
