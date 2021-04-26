@@ -77,7 +77,7 @@ export const FirstFeatureSection = () => {
             <Grid container justify="center" spacing={4}>
               {data.map((item) => {
                 return (
-                  <Grid item xs={6} sm={4} xl={4}>
+                  <Grid item xs={6} sm={4} xl={4} key={item.title}>
                     <FontAwesomeIconWrapper>{item.icon}</FontAwesomeIconWrapper>
                     <TypographyH6Wrapper variant="h6">
                       {item.title}

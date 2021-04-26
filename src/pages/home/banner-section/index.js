@@ -23,6 +23,7 @@ export const BannerIntroSection = () => {
         <IntroLeft
           item
           xs={12}
+          sm={6}
           md={5}
           lg={5}
           xl={4}
@@ -56,7 +57,7 @@ export const BannerIntroSection = () => {
           </BtnsWrapper>
         </IntroLeft>
         <Hidden xsDown>
-          <IntroRight item sm={8} md={5} lg={5} xl={4}>
+          <IntroRight item sm={6} md={5} lg={5} xl={4}>
             <img src={poster} alt="" />
           </IntroRight>
         </Hidden>

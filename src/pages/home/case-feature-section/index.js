@@ -73,7 +73,7 @@ export const CaseFeatureSection = () => {
           >
             {data.map((item) => {
               return (
-                <Grid item xs={12} sm={4} md={4} lg={4}>
+                <Grid item xs={12} sm={4} md={4} lg={4} key={item.title} >
                   <CardWrapper data-aos="fade-up"
                   data-aos-duration="1000">
                     {item.imgEle}

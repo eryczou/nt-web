@@ -40,7 +40,7 @@ export const CloudsFeatureSection = () => {
         data-aos-duration="1000"
       >
         <Grid item xs={12} md={10} xl={10}>
-          <FeatureTypographyWrapper variant="h6" marginBottom="20px">
+          <FeatureTypographyWrapper variant="h6" marginbottom="20px">
             最熟悉的开发环境
           </FeatureTypographyWrapper>
           <Grid container justify="center" alignItems="center">
@@ -59,8 +59,8 @@ export const CloudsFeatureSection = () => {
         <Grid item xs={12} md={10} xl={10}>
           <FeatureTypographyWrapper
             variant="h6"
-            marginTop="40px"
-            marginBottom="20px"
+            margintop="40px"
+            marginbottom="20px"
           >
             部署公有或私有云
           </FeatureTypographyWrapper>

@@ -93,9 +93,9 @@ export const WorkflowFeatureSection = () => {
           </Grid>
         </Grid>
         <Grid item xs={12} xl={12}>
-          {data.map((item) => {
+          {data.map((item, index) => {
             return (
-              <Grid container justify="center">
+              <Grid container justify="center" key={index}>
                 <LeftPanelWrapper
                   item
                   xs={10}

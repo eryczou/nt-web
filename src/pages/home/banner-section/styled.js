@@ -72,6 +72,8 @@ export const IntroRight = styled(Grid)`
     object-fit: cover;
     width: 100%;
     max-height: 100%;
+    margin-top: min(40px, 5%);
+    margin-bottom: min(40px, 5%);
   }
 `
 

@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import { GlobalStyle } from "./style";
 import reportWebVitals from "./reportWebVitals";
+import ReactGA from 'react-ga';
 
 ReactDOM.render(
   <React.Fragment>
@@ -12,6 +13,9 @@ ReactDOM.render(
   </React.Fragment>,
   document.getElementById("root")
 );
+
+ReactGA.initialize('UA-54649206-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

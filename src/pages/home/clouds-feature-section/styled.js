@@ -37,7 +37,7 @@ export const FeatureTypographyWrapper = styled(Typography)`
     text-align: center;
     font-weight: 800;
     color: #5e6c80;
-    margin-top: ${(props) => props.marginTop};
-    margin-bottom: ${(props) => props.marginBottom};
+    margin-top: ${(props) => props.margintop};
+    margin-bottom: ${(props) => props.marginbottom};
   }
 `;
