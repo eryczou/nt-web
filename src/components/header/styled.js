@@ -8,7 +8,6 @@ export const HeaderWrapper = styled.div`
 
 export const HeaderCenter = styled.div`
   height: 64px;
-  max-width: 1236px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -20,7 +19,7 @@ export const HeaderCenter = styled.div`
   }
   box-sizing: border-box;
   img {
-    height: 64px;
+    height: 40px;
     background: #fff;
   }
 `

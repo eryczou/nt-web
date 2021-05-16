@@ -40,7 +40,7 @@ export const FontAwesomeIconWrapper = styled(Grid)`
   height: 70px;
   width: 70px;
   border-radius: 16px;
-  color: rgb(63, 81, 181);
+  color: #0271C7;
   font-size: 30px;
 `;
 

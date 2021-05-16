@@ -78,7 +78,7 @@ export const ItemGridWrapper = styled(Grid)`
 
 export const FontAwesomeIconWrapper = styled.div`
   && {
-    color: #3f51b5;
+    color: #0271C7;
     font-size: 20px;
     line-height: 20px;
   }

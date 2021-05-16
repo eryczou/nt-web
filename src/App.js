@@ -8,7 +8,11 @@ import "./App.css";
 import AOS from "aos";
 
 const theme = createMuiTheme({
-  palette: {},
+  palette: {
+    primary: {
+      main: '#0271C7',
+    },
+  },
 });
 
 class App extends React.Component {
