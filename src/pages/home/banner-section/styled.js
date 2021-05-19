@@ -24,7 +24,7 @@ export const IntroTypographyWrapper = styled(Typography)`
     font-weight: 800;
     color: #2d3748;
     @media (max-width: 800px) {
-      font-size: 1.7rem;
+      font-size: 1.8rem;
     }
   }
 `;

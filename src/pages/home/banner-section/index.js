@@ -45,7 +45,7 @@ export const BannerIntroSection = () => {
               <TypistWrapper.Backspace count={9} delay={2000} />
             </TypistWrapper>
           ) : (
-            ""
+            " "
           )}
           <SubIntroTypographyWrapper variant="h6">
             帮助企业轻松部署机器学习模型到实际应用场景
