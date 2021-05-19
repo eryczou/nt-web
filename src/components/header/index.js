@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <HeaderWrapper>
       <HeaderCenter>
-        <Grid  md={4}>
+        <Grid md={4}>
           <img src={logoImage} alt="" />
         </Grid>
         <Grid md={4}>

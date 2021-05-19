@@ -23,6 +23,9 @@ export const HeaderCenter = styled.div`
   box-sizing: border-box;
   img {
     height: 40px;
+    @media (max-width: 400px) {
+      height: 30px;
+    }
     background: #fff;
   }
 `

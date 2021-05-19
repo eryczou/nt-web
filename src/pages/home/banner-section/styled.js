@@ -23,6 +23,9 @@ export const IntroTypographyWrapper = styled(Typography)`
     text-align: left;
     font-weight: 800;
     color: #2d3748;
+    @media (max-width: 800px) {
+      font-size: 1.8rem;
+    }
   }
 `;
 
@@ -45,6 +48,12 @@ export const TypistWrapper = styled(Typist)`
   && {
     text-align: left;
     span {
+      @media (max-width: 1200px) {
+        font-size: 2.5rem;
+      }
+      @media (max-width: 800px) {
+        font-size: 1.8rem;
+      }
       font-size: 3rem;
       font-family: "Roboto", "Helvetica", "Arial", sans-serif;
       font-weight: 800;
