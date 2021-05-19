@@ -12,7 +12,10 @@ export const HeaderCenter = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 64px;
+  @media (max-width: 960px) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
   @media (max-width: 600px) {
     padding-left: 8px;
     padding-right: 8px;
