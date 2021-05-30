@@ -57,7 +57,7 @@ export const CloudsFeatureSection = () => {
             <ImageWrapper src={r} height="50px"></ImageWrapper>
             <ImageWrapper src={flask} height="45px"></ImageWrapper>
             <ImageWrapper src={k8s} height="55px"></ImageWrapper>
-            <ImageWrapper src={docker} height="50px"></ImageWrapper>
+            <ImageWrapper src={docker} height="45px"></ImageWrapper>
           </Grid>
         </Grid>
         <Grid item xs={12} md={10} xl={10}>
