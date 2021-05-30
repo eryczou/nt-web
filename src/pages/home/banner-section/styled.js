@@ -9,7 +9,7 @@ export const BannerWrapper = styled.div`
 `
 
 export const IntroLeft = styled(Grid)`
-  padding: 140px 64px;
+  padding: 100px 64px;
   @media (max-width: 600px) {
     padding-left: 16px;
     padding-right: 16px;
@@ -25,6 +25,9 @@ export const IntroTypographyWrapper = styled(Typography)`
     color: #2d3748;
     @media (max-width: 800px) {
       font-size: 1.8rem;
+    }
+    @media (max-width: 600px) {
+      font-size: 2.2rem;
     }
   }
 `;
@@ -53,6 +56,9 @@ export const TypistWrapper = styled(Typist)`
       }
       @media (max-width: 800px) {
         font-size: 1.8rem;
+      }
+      @media (max-width: 600px) {
+        font-size: 2.2rem;
       }
       font-size: 3rem;
       font-family: "Roboto", "Helvetica", "Arial", sans-serif;

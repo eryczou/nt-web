@@ -14,6 +14,7 @@ export const CloudsFeatureWrapper = styled(Grid)`
   background: rgb(247, 249, 250);
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 `;
+
 export const ImageWrapper = styled.img`
   height: ${(props) => props.height};
   margin-right: 40px;

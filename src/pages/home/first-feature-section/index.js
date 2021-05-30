@@ -73,7 +73,7 @@ export const FirstFeatureSection = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <Grid item xs={12} md={10} lg={8} xl={8}>
+          <Grid item xs={12} md={10} lg={9} xl={8}>
             <Grid container justify="center" spacing={4}>
               {data.map((item) => {
                 return (

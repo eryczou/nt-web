@@ -25,13 +25,13 @@ export const BannerIntroSection = () => {
           xs={12}
           sm={7}
           md={7}
-          lg={4}
+          lg={5}
           xl={4}
           data-aos="fade-down"
           data-aos-duration="1000"
         >
           <IntroTypographyWrapper variant="h3">
-            人工智能/机器学习
+            人工智能MLOps
           </IntroTypographyWrapper>
           {count ? (
             <TypistWrapper avgTypingDelay={50} onTypingDone={() => setCount(0)}>

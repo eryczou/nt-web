@@ -101,7 +101,7 @@ export const WorkflowFeatureSection = () => {
                   xs={10}
                   sm={6}
                   md={5}
-                  lg={4}
+                  lg={5}
                   xl={4}
                   data-aos="fade-right"
                   data-aos-duration="1000"
@@ -113,7 +113,7 @@ export const WorkflowFeatureSection = () => {
                   xs={10}
                   sm={6}
                   md={5}
-                  lg={4}
+                  lg={5}
                   xl={4}
                   data-aos="fade-left"
                 >

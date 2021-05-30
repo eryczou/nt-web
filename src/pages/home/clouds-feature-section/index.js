@@ -17,6 +17,8 @@ import keras from "../../../assets/img/clouds/keras_logo.png";
 import xgboost from "../../../assets/img/clouds/xgboost_logo.png";
 import r from "../../../assets/img/clouds/r_logo.png";
 import flask from "../../../assets/img/clouds/flask_logo.png";
+import k8s from "../../../assets/img/clouds/k8s_logo.png";
+import docker from "../../../assets/img/clouds/docker_logo.png";
 
 import awsLogo from "../../../assets/img/clouds/aws_logo.png";
 import tencentLogo from "../../../assets/img/clouds/tencent_logo.png";
@@ -54,6 +56,8 @@ export const CloudsFeatureSection = () => {
             <ImageWrapper src={xgboost} height="50px"></ImageWrapper>
             <ImageWrapper src={r} height="50px"></ImageWrapper>
             <ImageWrapper src={flask} height="45px"></ImageWrapper>
+            <ImageWrapper src={k8s} height="55px"></ImageWrapper>
+            <ImageWrapper src={docker} height="50px"></ImageWrapper>
           </Grid>
         </Grid>
         <Grid item xs={12} md={10} xl={10}>
