@@ -13,6 +13,7 @@ export const CloudsFeatureWrapper = styled(Grid)`
   box-sizing: border-box;
   background: rgb(247, 249, 250);
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  overflow-x:hidden;
 `;
 
 export const ImageWrapper = styled.img`
