@@ -10,7 +10,7 @@ import {
   ItemGridWrapper,
   TypographyItemWrapper,
   FontAwesomeIconWrapper,
-  TalkButton,
+  ActionButton,
 } from "./styled";
 import { Grid, CardActions, Divider } from "@material-ui/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -94,6 +94,11 @@ export const PricingFeatureSection = () => {
                 </TypographyItemWrapper>
               </ItemGridWrapper>
             </CardContentWrapper>
+            <CardActions>
+              <ActionButton variant="outlined" size="medium" color="primary">
+                Github仓库
+              </ActionButton>
+            </CardActions>
           </CardWrapper>
         </Grid>
         <Grid item xs={12} sm={6} lg={5} xl={4}>
@@ -180,9 +185,9 @@ export const PricingFeatureSection = () => {
               </ItemGridWrapper>
             </CardContentWrapper>
             <CardActions>
-              <TalkButton variant="contained" size="medium" color="primary">
+              <ActionButton variant="contained" size="medium" color="primary">
                 联系我们
-              </TalkButton>
+              </ActionButton>
             </CardActions>
           </CardWrapper>
         </Grid>

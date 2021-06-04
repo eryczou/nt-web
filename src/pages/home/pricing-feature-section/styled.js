@@ -95,9 +95,11 @@ export const TypographyItemWrapper = styled(Typography)`
   }
 `;
 
-export const TalkButton = styled(Button)`
+export const ActionButton = styled(Button)`
   && {
-    margin-left: 10%;
-    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    width: 70%;
   }
 `;
