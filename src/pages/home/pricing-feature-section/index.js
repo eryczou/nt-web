@@ -17,6 +17,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 export const PricingFeatureSection = () => {
+  const handleGithubClick = () => {
+    const url = 'https://github.com/nantutech/ntcore';
+    window.open(url, '_blank');
+  }
+
+  const handleContactUs = () => {
+    window.location.href = `mailto:info@nantutech.com`;
+  }
+  
   return (
     <PricingFeatureWrapper>
       <Grid container justify="center">
@@ -95,7 +104,7 @@ export const PricingFeatureSection = () => {
               </ItemGridWrapper>
             </CardContentWrapper>
             <CardActions>
-              <ActionButton variant="outlined" size="medium" color="primary">
+              <ActionButton variant="outlined" size="medium" color="primary" onClick={handleGithubClick}>
                 Github仓库
               </ActionButton>
             </CardActions>
@@ -185,7 +194,7 @@ export const PricingFeatureSection = () => {
               </ItemGridWrapper>
             </CardContentWrapper>
             <CardActions>
-              <ActionButton variant="contained" size="medium" color="primary">
+              <ActionButton variant="contained" size="medium" color="primary" onClick={handleContactUs}>
                 联系我们
               </ActionButton>
             </CardActions>

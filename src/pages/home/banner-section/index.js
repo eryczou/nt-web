@@ -17,6 +17,11 @@ export const BannerIntroSection = () => {
     setCount(1);
   }, [count]);
 
+  const handleDocumentClick = () => {
+    const url = 'https://nantutech.github.io/ntcore-doc/#/zh-cn/';
+    window.open(url, '_blank');
+  }
+
   return (
     <BannerWrapper >
       <Grid container justify="center" alignItems="center">
@@ -51,7 +56,7 @@ export const BannerIntroSection = () => {
             帮助企业轻松部署机器学习模型到实际应用场景
           </SubIntroTypographyWrapper>
           <BtnsWrapper>
-            <Button variant="outlined" size="large" color="primary">
+            <Button variant="outlined" size="large" color="primary" onClick={handleDocumentClick}>
               查看文档
             </Button>
           </BtnsWrapper>
