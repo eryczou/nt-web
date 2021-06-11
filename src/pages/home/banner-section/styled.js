@@ -87,8 +87,8 @@ export const IntroRight = styled(Grid)`
     object-fit: cover;
     width: 100%;
     max-height: 100%;
-    margin-top: min(60px, 5%);
-    margin-bottom: min(60px, 5%);
+    margin-top: min(150px, 10%);
+    margin-bottom: min(150px, 10%);
   }
 `
 
