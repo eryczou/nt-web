@@ -5,7 +5,7 @@ import { HeaderWrapper, HeaderCenter, ContactUsBtn } from "./styled";
 
 export const Header = () => {
   const handleDocumentClick = () => {
-    const url = 'https://nantutech.github.io/ntcore-doc/#/zh-cn/';
+    const url = 'https://nantu-io.github.io/ntcore-doc/#/zh-cn/';
     window.open(url, '_blank');
   }
 

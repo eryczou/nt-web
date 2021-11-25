@@ -8,6 +8,23 @@ export const BannerWrapper = styled.div`
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 `
 
+const stars1 = styled.div`
+  width: 1px
+  height: 1px
+  background: transparent
+  box-shadow: $shadows-small
+  animation : animStar 50s linear infinite
+    
+  &:after
+    content: " "
+    position: absolute
+    top: 2000px
+    width: 1px
+    height: 1px
+    background: transparent
+    box-shadow: multiple-box-shadow(700)
+`
+
 export const IntroLeft = styled(Grid)`
   padding: 100px 64px;
   @media (max-width: 600px) {

@@ -18,7 +18,7 @@ import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 export const PricingFeatureSection = () => {
   const handleGithubClick = () => {
-    const url = 'https://github.com/nantutech/ntcore';
+    const url = 'https://github.com/nantu-io/ntcore';
     window.open(url, '_blank');
   }
 
